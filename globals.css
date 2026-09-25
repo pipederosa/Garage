@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+/* Recharts: sin contorno de foco al hacer click en el gráfico */
+.recharts-wrapper *:focus {
+  outline: none;
+}

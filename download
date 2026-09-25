@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+
+# Credenciales: NUNCA subir a GitHub
+.env
+.env.local
+.env*.local
+*service-account*.json
